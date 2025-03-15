@@ -54,47 +54,166 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 ---  
   
 # **🛠 Technology Stack & Development Plan**    
-  
-### **🌐 Frontend Development**    
-**👨‍💻 Tech Stack:** React.js, Next.js, TailwindCSS, JavaScript (Three.js for animations)    
-**📌 Tasks:**    
-✔ Design **intuitive UI** with emergency buttons and quick access features.    
-✔ Implement **alert notifications, voice-triggered SOS, and animation-based status updates.**    
-  
-**👤 Assigned To:** *Sneha (UI design), Ishani & Avirup (Frontend Development using React.js / Next.js)*    
-  
----  
-  
-### **🖥 Backend Development**    
-**👨‍💻 Tech Stack:** Node.js, Express.js, Python    
-**📌 Tasks:**    
-✔ Create **secure API endpoints for SOS transmission.**    
-✔ Develop **real-time location-sharing services using WebRTC.**    
-✔ Store emergency contacts **securely in MongoDB/MySQL.**    
-  
-**👤 Assigned To:** *Sneha (Node.js, Express.js), Rajarshi (Python-based algorithms, WebRTC integration).*    
-  
----  
-  
-### **📶 Networking & Connectivity (P2P Communication)**    
-**👨‍💻 Tech Stack:** WebRTC, Pears Technology    
-**📌 Tasks:**    
-✔ Implement **direct device-to-device communication** without requiring internet.    
-✔ Optimize **P2P connections for real-time messaging and call support.**    
-✔ Handle **data encryption for secure distress communication.**    
-  
-**👤 Assigned To:** *Sneha & Rajarshi (WebRTC, Pears Technology & security layer).*    
-  
----  
-  
-### **🔍 Research & Content Development**    
-**📌 Tasks:**    
-✔ Market survey on **existing emergency solutions.**    
-✔ Legal compliance & **collaboration with law enforcement.**    
-✔ Social media & community awareness strategies.    
-  
-**👤 Assigned To:** *Oreva (AI chatbot research, social media, content development).*    
-  
+
+🔹 1️⃣ Frontend Development (UI & UX)
+
+Tech Stack:
+
+React.js & Next.js → For building an interactive web app.
+
+TailwindCSS → For responsive UI styling.
+
+JavaScript (Three.js) → For animation effects.
+
+
+Tasks:
+
+✅ UI/UX Design
+
+Design emergency buttons (SOS trigger, Call Emergency, Location Share).
+
+Create an intuitive dashboard for users.
+
+Implement animation-based status updates (e.g., blinking SOS alerts).
+
+
+✅ SOS Alert System
+
+Implement a one-click SOS button that instantly triggers alerts.
+
+Add visual indicators for active SOS alerts.
+
+
+✅ Voice-Triggered SOS (Future Scope)
+
+Integrate voice detection for hands-free emergency activation.
+
+
+👤 Assigned To:
+```
+Sneha (UI Design)
+
+```
+
+
+```
+Ishani & Avirup (Frontend Development using React.js / Next.js)
+
+```
+
+---
+
+🔹 2️⃣ Backend Development (API & Data Handling)
+
+Tech Stack:
+
+Node.js & Express.js → Backend framework for handling API requests.
+
+Python → For AI-based features and WebRTC optimizations.
+
+MongoDB / MySQL → To store user data and emergency contacts.
+
+
+Tasks:
+
+✅ Secure API Development
+
+Create secure endpoints for sending and receiving SOS messages.
+
+Store user emergency contacts & preferences securely.
+
+
+✅ Location Sharing System
+
+Implement real-time location tracking via GPS.
+
+Develop API to fetch nearest police stations, hospitals, fire stations.
+
+
+✅ AI-Based Threat Detection (Future Scope)
+
+Use speech recognition & motion detection to auto-trigger alerts.
+
+
+👤 Assigned To:
+
+```
+Sneha (Node.js, Express.js)
+```
+```
+Rajarshi (Python, WebRTC integration, AI algorithms).
+```
+
+---
+
+🔹 3️⃣ Networking & P2P Communication (No Internet Required)
+
+Tech Stack:
+
+WebRTC & Pears Technology → Enables real-time P2P connections.
+
+
+Tasks:
+
+✅ Device-to-Device Communication
+
+Enable direct SOS message transmission without internet.
+
+Implement P2P calling and text messaging between devices.
+
+
+✅ Security & Encryption
+
+Encrypt SOS messages & location data for privacy protection.
+
+Ensure secure peer-to-peer authentication to prevent misuse.
+
+
+👤 Assigned To:
+
+```
+Sneha & Rajarshi (WebRTC, Pears Technology & Security Layer).
+
+
+```
+
+
+---
+
+🔹 4️⃣ Research & Content Development
+
+Tasks:
+
+✅ Market Research
+
+Analyze existing SOS apps (Google SOS, Truecaller Emergency, etc.).
+
+Identify their limitations & how this project is different.
+
+
+✅ Legal & Compliance Research
+
+Explore data privacy laws for emergency contact storage.
+
+Collaborate with local law enforcement agencies for real-world testing.
+
+
+✅ Social Media & Awareness
+
+Develop awareness campaigns on how to use the SOS system.
+
+Plan community outreach & potential government collaborations.
+
+
+👤 Assigned To:
+
+```
+Oreva (AI chatbot research, social media, content development).
+
+
+```
+
+
 ---  
   
 # **📈 System Architecture & Implementation Plan**    
