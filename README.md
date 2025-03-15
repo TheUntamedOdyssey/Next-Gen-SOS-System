@@ -61,7 +61,7 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 ✔ Design **intuitive UI** with emergency buttons and quick access features.  
 ✔ Implement **alert notifications, voice-triggered SOS, and animation-based status updates.**  
 
-**👤 Assigned To:** *Ishani (UI/UX), Avirup (TailwindCSS, frontend refinement), Sneha (React.js, animations, interactivity).*  
+**👤 Assigned To:** *Ishani (UI/UX), Avirup (TailwindCSS, frontend refinement), Sneha (React.js, animations, interactivity.)*  
 
 ---
 
@@ -83,7 +83,7 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 ✔ Optimize **P2P connections for real-time messaging and call support.**  
 ✔ Handle **data encryption for secure distress communication.**  
 
-**👤 Assigned To:** *Sneha (WebRTC), Rajarshi (Pears Technology & security layer).*  
+**👤 Assigned To:** *Sneha & Rajarshi (WebRTC, Pears Technology & security layer).*  
 
 ---
 
