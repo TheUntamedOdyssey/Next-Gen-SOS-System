@@ -17,7 +17,7 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 ✔ **Instant location-sharing with authorities**    
 ✔ **Gender-specific emergency routing**    
   
----  
+---    
   
 ## **🌍 Target Audience & Societal Benefits**    
 ✔ **Individuals in danger (women, children, elderly, travelers, etc.)**    
@@ -31,7 +31,7 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 🔹 **Improves law enforcement response times by 70%.**    
 🔹 **Can integrate with national emergency networks.**    
   
----  
+---    
   
 # **🔥 Key Features & Technology Behind It**    
   
@@ -51,7 +51,7 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
 ✅ AI detects distress situations based on voice patterns or sensor data.    
 ✅ Auto-triggers SOS in high-risk situations.    
   
----  
+---    
   
 # **🛠 Technology Stack & Development Plan**    
 
@@ -92,13 +92,9 @@ Integrate voice detection for hands-free emergency activation.
 👤 Assigned To:
 ```
 Sneha (UI Design)
-
 ```
-
-
 ```
 Ishani & Avirup (Frontend Development using React.js / Next.js)
-
 ```
 
 ---
@@ -136,7 +132,6 @@ Use speech recognition & motion detection to auto-trigger alerts.
 
 
 👤 Assigned To:
-
 ```
 Sneha (Node.js, Express.js)
 ```
@@ -170,51 +165,11 @@ Ensure secure peer-to-peer authentication to prevent misuse.
 
 
 👤 Assigned To:
-
 ```
 Sneha & Rajarshi (WebRTC, Pears Technology & Security Layer).
-
-
 ```
 
-
----
-
-🔹 4️⃣ Research & Content Development
-
-Tasks:
-
-✅ Market Research
-
-Analyze existing SOS apps (Google SOS, Truecaller Emergency, etc.).
-
-Identify their limitations & how this project is different.
-
-
-✅ Legal & Compliance Research
-
-Explore data privacy laws for emergency contact storage.
-
-Collaborate with local law enforcement agencies for real-world testing.
-
-
-✅ Social Media & Awareness
-
-Develop awareness campaigns on how to use the SOS system.
-
-Plan community outreach & potential government collaborations.
-
-
-👤 Assigned To:
-
-```
-Oreva (AI chatbot research, social media, content development).
-
-
-```
-
-
----  
+---    
   
 # **📈 System Architecture & Implementation Plan**    
   
@@ -233,7 +188,7 @@ Oreva (AI chatbot research, social media, content development).
 ✔ Prepare for **public testing & deployment.**    
 ✔ Scale for **national/international use cases.**    
   
----  
+---    
   
 # **📊 Competitive Analysis & Future Potential**    
   
@@ -246,31 +201,17 @@ Oreva (AI chatbot research, social media, content development).
 ✔ **Direct emergency response integration.**    
 ✔ **Highly scalable & privacy-focused system.**    
   
----  
-  
-# **💰 Funding & Future Enhancements**    
-📌 **Investment Needed:**    
-- Server hosting & security (~$300/year)    
-- Advanced AI & blockchain security (~$500)    
-  
-📌 **Future Scope:**    
-✅ Smart wearable **(IoT integration)**    
-✅ AI-enhanced **threat detection**    
-✅ **Blockchain-based** emergency data security    
-  
----  
+---    
   
 # **🚀 Expected Impact & Conclusion**    
 ✔ **70% faster response times for law enforcement & emergency responders.**    
 ✔ **A scalable, next-gen emergency support system for global adoption.**    
 ✔ **Potential to become a government-endorsed safety tool.**    
   
----  
+---    
   
 ### **Next Steps for Development 🔧**    
 🔹 **Step 1:** Start with basic UI and WebRTC-based P2P messaging.    
 🔹 **Step 2:** Implement API & database connectivity for emergency contacts.    
 🔹 **Step 3:** Develop AI-based auto SOS triggers & distress detection.    
-🔹 **Step 4:** Optimize performance and security for real-world deployment.    
-  
-  
+🔹 **Step 4:** Optimize performance and security for real-world deployment.
