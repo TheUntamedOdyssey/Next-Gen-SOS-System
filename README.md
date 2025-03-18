@@ -35,27 +35,27 @@ Our objective is to develop a **highly reliable, real-time Emergency SOS System*
   
 # **🔥 Key Features & Technology Behind It**    
   
-## **1️⃣ Works Without Internet or Balance 📡**    
+## **1⃣ Works Without Internet or Balance 📱**    
 ✅ Uses **Peer-to-Peer (P2P) networking** to connect nearby devices without relying on mobile networks.    
 ✅ Establishes **ad-hoc networks** using **WebRTC & Pears Technology.**    
   
-## **2️⃣ Automated SOS Messaging & Calls 📲**    
+## **2⃣ Automated SOS Messaging & Calls 📞**    
 ✅ Sends emergency alerts to **pre-configured emergency contacts** with **location details.**    
 ✅ Directly contacts the **nearest police station, hospitals, and fire stations.**    
   
-## **3️⃣ Smart Gender-Specific Emergency Routing 🚔** *(Future Scope)*    
+## **3⃣ Smart Gender-Specific Emergency Routing 🛡️** *(Future Scope)*    
 ✅ If a **woman or child** is in distress → SOS is routed to **female police officers.**    
 ✅ If a **male user** needs help → SOS is routed to **male officers.**    
   
-## **4️⃣ AI-Powered Threat Detection 🤖** *(Future Scope)*    
+## **4⃣ AI-Powered Threat Detection 🤖** *(Future Scope)*    
 ✅ AI detects distress situations based on voice patterns or sensor data.    
 ✅ Auto-triggers SOS in high-risk situations.    
   
 ---    
   
 # **🛠 Technology Stack & Development Plan**    
-
-🔹 1️⃣ Frontend Development (UI & UX)
+  
+🔹 1⃣ Frontend Development (UI & UX)
 
 Tech Stack:
 
@@ -94,12 +94,12 @@ Integrate voice detection for hands-free emergency activation.
 Sneha (UI Design)
 ```
 ```
-Ishani & Avirup (Frontend Development using React.js / Next.js)
+Ishani & Anusua (Frontend Development using React.js / Next.js)
 ```
 
 ---
 
-🔹 2️⃣ Backend Development (API & Data Handling)
+🔹 2⃣ Backend Development (API & Data Handling)
 
 Tech Stack:
 
@@ -135,13 +135,10 @@ Use speech recognition & motion detection to auto-trigger alerts.
 ```
 Sneha (Node.js, Express.js)
 ```
-```
-Rajarshi (Python, WebRTC integration, AI algorithms).
-```
 
 ---
 
-🔹 3️⃣ Networking & P2P Communication (No Internet Required)
+🔹 3⃣ Networking & P2P Communication (No Internet Required)
 
 Tech Stack:
 
@@ -166,12 +163,12 @@ Ensure secure peer-to-peer authentication to prevent misuse.
 
 👤 Assigned To:
 ```
-Sneha & Rajarshi (WebRTC, Pears Technology & Security Layer).
+Sneha (WebRTC, Pears Technology & Security Layer).
 ```
 
 ---    
   
-# **📈 System Architecture & Implementation Plan**    
+# **📊 System Architecture & Implementation Plan**    
   
 ### **🚀 Phase 1: MVP Development (4 Weeks)**    
 ✔ Build **core P2P communication system.**    
@@ -208,10 +205,4 @@ Sneha & Rajarshi (WebRTC, Pears Technology & Security Layer).
 ✔ **A scalable, next-gen emergency support system for global adoption.**    
 ✔ **Potential to become a government-endorsed safety tool.**    
   
----    
-  
-### **Next Steps for Development 🔧**    
-🔹 **Step 1:** Start with basic UI and WebRTC-based P2P messaging.    
-🔹 **Step 2:** Implement API & database connectivity for emergency contacts.    
-🔹 **Step 3:** Develop AI-based auto SOS triggers & distress detection.    
-🔹 **Step 4:** Optimize performance and security for real-world deployment.
+---
