@@ -1,208 +1,123 @@
 # Project : Next-Gen-SOS-System || Hackathon : SBH-Senior-2025  
-## **🚀 Next-Gen Emergency SOS System**    
-  
-### **📌 Category:**    
-✔ **Software (Web & Mobile-Based Emergency System)**    
-  
-### **🔍 Problem Statement & Objective**    
-Emergencies can occur at any moment, and people often face difficulties contacting their emergency contacts due to:    
-- **Lack of mobile balance**    
-- **No internet access**    
-- **Poor network connectivity**    
-- **Limited awareness of nearby emergency services**    
-  
-Our objective is to develop a **highly reliable, real-time Emergency SOS System** that ensures:    
-✔ **Immediate distress communication**    
-✔ **Seamless peer-to-peer (P2P) connectivity**    
-✔ **Instant location-sharing with authorities**    
-✔ **Gender-specific emergency routing**    
-  
----    
-  
-## **🌍 Target Audience & Societal Benefits**    
-✔ **Individuals in danger (women, children, elderly, travelers, etc.)**    
-✔ **Law enforcement & first responders (police, hospitals, fire stations)**    
-✔ **People in remote areas with poor network coverage**    
-✔ **Individuals unable to recharge their phones due to financial limitations**    
-  
-### **⚡️ Major Benefits:**    
-🔹 **Ensures immediate contact with emergency responders.**    
-🔹 **Works even when mobile balance or internet is unavailable.**    
-🔹 **Improves law enforcement response times by 70%.**    
-🔹 **Can integrate with national emergency networks.**    
-  
----    
-  
-# **🔥 Key Features & Technology Behind It**    
-  
-## **1⃣ Works Without Internet or Balance 📱**    
-✅ Uses **Peer-to-Peer (P2P) networking** to connect nearby devices without relying on mobile networks.    
-✅ Establishes **ad-hoc networks** using **WebRTC & Pears Technology.**    
-  
-## **2⃣ Automated SOS Messaging & Calls 📞**    
-✅ Sends emergency alerts to **pre-configured emergency contacts** with **location details.**    
-✅ Directly contacts the **nearest police station, hospitals, and fire stations.**    
-  
-## **3⃣ Smart Gender-Specific Emergency Routing 🛡️** *(Future Scope)*    
-✅ If a **woman or child** is in distress → SOS is routed to **female police officers.**    
-✅ If a **male user** needs help → SOS is routed to **male officers.**    
-  
-## **4⃣ AI-Powered Threat Detection 🤖** *(Future Scope)*    
-✅ AI detects distress situations based on voice patterns or sensor data.    
-✅ Auto-triggers SOS in high-risk situations.    
-  
----    
-  
-# **🛠 Technology Stack & Development Plan**    
-  
-🔹 1⃣ Frontend Development (UI & UX)
+# SOS Alert App - SBH Smart Bengal Hackathon Submission
 
-Tech Stack:
+## Title of the Problem:
+Enhancing Personal Safety & Accident Response Through a Smart SOS Alert System
 
-React.js & Next.js → For building an interactive web app.
+## Introduction:
+- The SOS Alert App is designed to provide users with a quick and efficient emergency alert system.
+- It integrates multi-modal SOS activation, *live location tracking,* offline emergency communication, and *accident detection with automatic alerts to emergency services.*
 
-TailwindCSS → For responsive UI styling.
+## Major Societal Benefit / Target Community:
+- Women’s Safety: Quick distress alerts and live tracking.
+- Elderly Individuals: Emergency assistance for medical situations.
+- Travelers & Solo Commuters: Safety in unknown routes.
+- People with Disabilities: Voice-activated SOS features.
+- *Accident Victims: Automatic crash detection and alerts to the nearest hospital and police station.*
 
-JavaScript (Three.js) → For animation effects.
+## Other Application Areas:
+- Disaster response – Alerting emergency contacts during natural calamities.
+- Workplace safety – Ensuring employees’ safety in hazardous environments.
+- Student safety – Protection during late-night travel.
+- *Road Safety – Accident detection and automated emergency response.*
 
+## Market / Literature Survey:
+- Existing apps like bSafe, Noonlight, and Life360 lack offline support, P2P networking, Wear OS integration, and accident detection.
+- Studies show 70% of women feel unsafe traveling alone at night, emphasizing the need for *a reliable emergency alert system.*
+- Increasing road accidents necessitate an *automated alert system* for rapid emergency response.
+- Growing demand for smart security and accident detection apps in India’s tech landscape.
 
-Tasks:
+## Technology Features:
+- Cross-platform (Flutter/Dart) – Works on Android and iOS.
+- Firebase Authentication – Secure user registration.
+- Emergency Contact Setup – Up to five emergency contacts.
+- SOS Activation – Via press-hold button, voice command, and Wear OS trigger.
+- Live Location Sharing – Continuous GPS tracking.
+- Offline Mode – SMS-based alert system.
+- P2P Networking – Uses Bluetooth/Wi-Fi Direct.
+- Wear OS Support – Smartwatch integration.
+- Data Security – Implements AES encryption.
+- *Accident Detection – Uses accelerometer and GPS to detect crashes.*
+- *GSM-Based Emergency Messaging – Sends accident alerts to the nearest hospital and police station.*
 
-✅ UI/UX Design
+## Hardware Components:
+- GPS Module (Ublox NEO-6M) – Ensures accurate location tracking.
+- Bluetooth/Wi-Fi Module (ESP32) – Facilitates offline peer-to-peer (P2P) networking.
+- RFID/NFC Module – Allows quick SOS activation using RFID/NFC tags.
+- Microcontroller (Arduino Nano/Raspberry Pi Pico) – Supports external hardware interactions.
+- Emergency Button (Tactile Switch) – Dedicated panic button for instant alerts.
+- Battery Backup (Lithium-ion with BMS) – Ensures functionality in case of power failure.
+- Vibration Motor – Provides haptic feedback for silent alerts.
+- *Accelerometer Sensor – Detects sudden impact and triggers accident alerts.*
+- *GSM Module (SIM800L) – Sends emergency messages to hospitals and police.*
 
-Design emergency buttons (SOS trigger, Call Emergency, Location Share).
+## Product Price & Business Model:
+- Freemium Model: Basic SOS features are free; premium features like *Wear OS sync, cloud backup, and priority emergency services* are monetized.
+- Enterprise Partnerships: Security firms, police, and NGOs.
+- Subscription-based Services: Advanced tracking and emergency support.
 
-Create an intuitive dashboard for users.
+## Novelty & Comparative Study:
+| Feature | Existing Apps | SOS Alert App |
+|---------|--------------|--------------|
+| Offline SMS Alerts | ❌ No | ✅ Yes |
+| P2P Networking | ❌ No | ✅ Yes |
+| Wear OS Support | ❌ No | ✅ Yes |
+| Multi-modal SOS Activation | ⚠ Limited | ✅ Yes |
+| AES Encrypted Data Storage | ❌ No | ✅ Yes |
+| Hardware Integration | ❌ No | ✅ Yes |
+| *Accident Detection & Alerts* | ❌ No | ✅ Yes |
+| *GSM-Based Emergency Messaging* | ❌ No | ✅ Yes |
 
-Implement animation-based status updates (e.g., blinking SOS alerts).
+## Architecture / Block Diagram:
+- User → SOS App → Emergency Contact(s), Police, Nearby Users
+- Backend Services (Firebase, API Calls) → Location & Alert Management
+- Wear OS Companion → SOS Sync & Alerts
+- Hardware Sensors → Triggers Emergency Alerts
+- *Accident Detection Module → Sends GSM Alert to Hospital & Police*
 
+## Data Flow Diagram:
+1. User initiates SOS (button press, voice, RFID tag, or smartwatch) OR accident is detected.
+2. App requests location & contact permissions.
+3. App sends alerts via SMS/P2P networking.
+4. Emergency contacts receive live location updates.
+5. *In case of an accident, GSM module sends an automatic emergency alert with coordinates to the nearest hospital and police station.*
+6. SOS/accident status is displayed on mobile and smartwatch.
 
-✅ SOS Alert System
+## Signal Flow Diagram:
+1. User presses SOS button OR accident is detected → Signal sent to Firebase & Contacts.
+2. Location services activated → GPS coordinates sent to backend.
+3. Alert sent via SMS/P2P Networking.
+4. *In case of an accident, GSM module triggers an emergency message to hospitals and police.*
+5. Live updates shared periodically until SOS is deactivated.
 
-Implement a one-click SOS button that instantly triggers alerts.
+## Component List:
+- Smartphone (Android/iOS) – Core device for SOS alerts.
+- Wear OS Smartwatch – Secondary trigger.
+- GPS Module – Location tracking.
+- Bluetooth/Wi-Fi Module – Offline alerts.
+- RFID/NFC Module – Quick activation.
+- Microcontroller – Manages hardware interactions.
+- Tactile Emergency Button – Physical panic button.
+- Battery Backup – Uninterrupted functionality.
+- Vibration Motor – Silent feedback.
+- *Accelerometer Sensor – Detects accidents.*
+- *GSM Module – Sends alerts to emergency services.*
 
-Add visual indicators for active SOS alerts.
+## Software Used:
+- Flutter (Dart) – Cross-platform development.
+- Firebase – Backend authentication & Firestore.
+- Google Maps API – Real-time location tracking.
+- Android SMS API (Java) – Offline SMS functionality.
+- Wear OS SDK – Smartwatch integration.
+- ML Kit (Voice Recognition) – Voice-activated SOS.
+- AES Encryption – Secure data storage.
+- *Machine Learning Model – Identifies accident patterns using sensor data.*
+- *GSM Communication – Sends automated emergency messages.*
 
+## Open Source:
+- Core functionalities will be open-source on GitHub.
+- Encouraging community contributions.
+- API documentation for third-party integrations.
 
-✅ Voice-Triggered SOS (Future Scope)
-
-Integrate voice detection for hands-free emergency activation.
-
-
-👤 Assigned To:
-```
-Sneha (UI Design)
-```
-```
-Ishani & Anusua (Frontend Development using React.js / Next.js)
-```
-
----
-
-🔹 2⃣ Backend Development (API & Data Handling)
-
-Tech Stack:
-
-Node.js & Express.js → Backend framework for handling API requests.
-
-Python → For AI-based features and WebRTC optimizations.
-
-MongoDB / MySQL → To store user data and emergency contacts.
-
-
-Tasks:
-
-✅ Secure API Development
-
-Create secure endpoints for sending and receiving SOS messages.
-
-Store user emergency contacts & preferences securely.
-
-
-✅ Location Sharing System
-
-Implement real-time location tracking via GPS.
-
-Develop API to fetch nearest police stations, hospitals, fire stations.
-
-
-✅ AI-Based Threat Detection (Future Scope)
-
-Use speech recognition & motion detection to auto-trigger alerts.
-
-
-👤 Assigned To:
-```
-Sneha (Node.js, Express.js)
-```
-
----
-
-🔹 3⃣ Networking & P2P Communication (No Internet Required)
-
-Tech Stack:
-
-WebRTC & Pears Technology → Enables real-time P2P connections.
-
-
-Tasks:
-
-✅ Device-to-Device Communication
-
-Enable direct SOS message transmission without internet.
-
-Implement P2P calling and text messaging between devices.
-
-
-✅ Security & Encryption
-
-Encrypt SOS messages & location data for privacy protection.
-
-Ensure secure peer-to-peer authentication to prevent misuse.
-
-
-👤 Assigned To:
-```
-Sneha (WebRTC, Pears Technology & Security Layer).
-```
-
----    
-  
-# **📊 System Architecture & Implementation Plan**    
-  
-### **🚀 Phase 1: MVP Development (4 Weeks)**    
-✔ Build **core P2P communication system.**    
-✔ Develop **basic UI & SOS alert system.**    
-✔ Implement **real-time messaging & location sharing.**    
-  
-### **🚀 Phase 2: Advanced Features (4-6 Weeks)**    
-✔ Integrate **AI-based voice trigger & distress detection.**    
-✔ Implement **gender-based emergency routing.**    
-✔ Connect with **local authorities & hospitals.**    
-  
-### **🚀 Phase 3: Final Enhancements (4 Weeks)**    
-✔ Optimize **performance & security protocols.**    
-✔ Prepare for **public testing & deployment.**    
-✔ Scale for **national/international use cases.**    
-  
----    
-  
-# **📊 Competitive Analysis & Future Potential**    
-  
-### **📌 Market Survey:**    
-✔ **Google SOS, Truecaller Emergency Services, and Third-party apps require active internet & mobile balance.**    
-✔ **Our system overcomes these limitations with P2P connectivity & direct law enforcement integration.**    
-  
-### **📌 Unique Selling Points:**    
-✔ **No dependency on telecom networks.**    
-✔ **Direct emergency response integration.**    
-✔ **Highly scalable & privacy-focused system.**    
-  
----    
-  
-# **🚀 Expected Impact & Conclusion**    
-✔ **70% faster response times for law enforcement & emergency responders.**    
-✔ **A scalable, next-gen emergency support system for global adoption.**    
-✔ **Potential to become a government-endorsed safety tool.**    
-  
----
+## Conclusion:
+The SOS Alert App is a comprehensive, real-time emergency response system ensuring quick, secure, and efficient distress alerts. With *multi-modal SOS activation, accident detection, GSM-based emergency messaging, offline communication, Wear OS support, and integrated hardware components,* the app enhances safety for diverse user groups. The *open-source nature* allows for continuous improvement, collaboration, and scalability.
